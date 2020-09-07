@@ -339,6 +339,19 @@ nav ul {
     z-index:4;
 }
 
+section#questions .questions-form {
+    width: 100%;
+    height: 0;
+    padding-bottom: 82.25%;
+    position: relative;
+}
+
+section#questions .questions-form iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
 button.cta, .button.cta {
     background-image: linear-gradient(90deg,var(--theme-color),var(--accent-color));
     border-radius:30px;
