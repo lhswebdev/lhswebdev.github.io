@@ -111,7 +111,7 @@ section h1 {
 }
 
 path {
-    animation: flow 3s linear forwards;
+    animation: flow 5s linear forwards;
     stroke: var(--theme-color);
 }
 
@@ -388,7 +388,7 @@ button.cta i.fa, .button.cta i.fa {
     margin: 0px 20px;
     color: white;
     background-image: none;
-    border: #121b20 solid 1px;
+    border: #121b20 solid 5px;
 }
 
 #description .involved-links a:first-child {

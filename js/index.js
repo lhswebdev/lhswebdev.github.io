@@ -32,6 +32,6 @@ document.querySelectorAll("#hero-img path").forEach(it => {
 });
 
 let iframe = document.getElementById("videoEmbed");
-iframe.onload = () => {
+iframe.onload = window.onresize = () => {
     iframe.style.height = iframe.offsetWidth * 0.5625 + "px";
 }
