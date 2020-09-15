@@ -388,6 +388,7 @@ button.cta i.fa, .button.cta i.fa {
     margin: 0px 20px;
     color: white;
     background-image: none;
+    border: #121b20 solid 1px;
 }
 
 #description .involved-links a:first-child {
