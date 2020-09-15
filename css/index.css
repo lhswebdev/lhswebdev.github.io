@@ -80,7 +80,7 @@ section:nth-child(odd) {
     clip-path: polygon( 0 0, 100% var(--clip-height), 100% 100%, 0 calc(100% - var(--clip-height)));
 }
 
-section:nth-child(odd) a[href] {
+section a[href] {
     color: black;
 }
 
@@ -376,6 +376,39 @@ button.cta i.fa, .button.cta i.fa {
     margin-right: 15px;
 }
 
+#description div{
+    margin: 30px 0px;
+}
+
+#description .involved-links {
+    display: flex;
+}
+
+#description .involved-links a {
+    margin: 0px 20px;
+    color: white;
+    background-image: none;
+}
+
+#description .involved-links a:first-child {
+    margin-left: 0;
+}
+
+#description .involved-links a:last-child {
+    margin-right: 0;
+}
+
+#description .involved-links .discord {
+    background-color: #738adb;
+}
+
+#description .involved-links .youtube {
+    background-color: #ff0000;
+}
+
+#description .involved-links .zoom {
+    background-color: #348cff;
+}
 
 @media screen and (max-width: 1024px) {
     nav {
