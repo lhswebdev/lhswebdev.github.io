@@ -382,21 +382,16 @@ button.cta i.fa, .button.cta i.fa {
 
 #description .involved-links {
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-flow: wrap;
 }
 
 #description .involved-links a {
-    margin: 0px 20px;
+    margin: 20px 20px;
     color: white;
     background-image: none;
     border: #121b20 solid 5px;
-}
-
-#description .involved-links a:first-child {
-    margin-left: 0;
-}
-
-#description .involved-links a:last-child {
-    margin-right: 0;
 }
 
 #description .involved-links .discord {
