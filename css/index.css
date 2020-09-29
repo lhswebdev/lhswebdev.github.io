@@ -406,6 +406,10 @@ button.cta i.fa, .button.cta i.fa {
     background-color: #348cff;
 }
 
+#description .involved-links .meeting-demos {
+    background-color: #24292e;
+}
+
 @media screen and (max-width: 1024px) {
     nav {
         background: black;
