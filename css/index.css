@@ -431,7 +431,8 @@ button.cta i.fa,
 }
 
 #description .involved-links .project {
-  background-color: #8eb742;
+  background-color: #fff;
+  color: black;
 }
 
 @media screen and (max-width: 1024px) {
