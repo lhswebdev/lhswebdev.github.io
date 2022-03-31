@@ -1,0 +1,25 @@
+.button.cta {
+	background-image: none; 
+
+	border-radius: 1.5em;
+	height: 3em;
+	border: #121b20 solid 5px; 
+	
+	color: white;
+	font-weight: 700;
+	padding: 15px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+	transition: 500ms;
+}
+
+.button.cta:focus,
+.button:hover {
+	border-radius: 10px;
+}
+
+
+.button.cta i.fa {
+	margin-right: 15px;
+}
