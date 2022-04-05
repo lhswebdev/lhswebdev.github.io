@@ -18,7 +18,10 @@
   subTitle={title}
   width="12em"
 >
-  <p>{description}</p>
+  <!--<p>{description}</p>--> 
+  {#if name.includes("Kento")} 
+    <p> Crack Addict @ Harvard </p>
+  {/if}
   <p slot="bottom" class="links">
     <a href={github} target="_blank">
       <!--<span><Icon path={mdiGithub} size="30px" /></span>-->
