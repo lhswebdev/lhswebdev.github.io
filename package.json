@@ -9,10 +9,11 @@
     "format": "eslint --cache --fix src"
   },
   "devDependencies": {
+    "@iconify/svelte": "^2.2.1",
+    "@icons-pack/svelte-simple-icons": "^3.0.0",
     "@ota-meshi/eslint-plugin-svelte": "^0.26.0",
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
-    "@types/nodemailer": "^6.4.4",
     "@typescript-eslint/eslint-plugin": "^5.10.2",
     "@typescript-eslint/parser": "^5.10.2",
     "eslint": "^8.8.0",
@@ -22,7 +23,6 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-svelte3": "^3.4.0",
     "eslint-plugin-unused-imports": "^2.0.0",
-    "nodemailer": "^6.7.2",
     "prettier": "^2.5.1",
     "prettier-plugin-svelte": "^2.6.0",
     "rollup": "^2.3.4",
@@ -34,11 +34,8 @@
   },
   "dependencies": {
     "@rollup/plugin-json": "^4.1.0",
-    "email": "^0.2.6",
-    "jquery": "^3.6.0",
     "papercss": "^1.8.3",
     "sirv-cli": "^2.0.0",
-    "spaper": "^0.4.6",
-    "svelte-carousel": "^1.0.17-rc4"
+    "spaper": "^0.4.6"
   }
 }

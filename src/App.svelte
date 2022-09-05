@@ -1,6 +1,7 @@
 <script>
   import { Navbar, Button } from "spaper";
   import Officer from "./Officer.svelte";
+  import { Discord, Youtube, Github } from "@icons-pack/svelte-simple-icons";
   let text, email;
 
   const officers = [
@@ -63,8 +64,8 @@
       <li id="involved-li"><a href="#involved"> Get Involved!</a></li>
       <li>
         <Button href="https://github.com/lhswebdev?type=source" external>
-          Github</Button
-        >
+          Github
+        </Button>
       </li>
     </ul>
   </Navbar>
@@ -107,7 +108,7 @@
       target="_blank"
       class="button cta discord"
     >
-      Discord <i class="fab fa-discord" />
+      Discord <Discord />
     </a>
 
     <a
@@ -115,7 +116,7 @@
       target="_blank"
       class="button cta youtube"
     >
-      YouTube <i class="fab fa-youtube" />
+      YouTube <Youtube />
     </a>
 
     <a
@@ -123,7 +124,7 @@
       target="_blank"
       class="button cta meeting-demos"
     >
-      Meeting Demos <i class="fab fa-github" />
+      Meeting Demos <Github />
     </a>
   </div>
 
@@ -222,6 +223,7 @@
     align-items: center;
     gap: 2em;
   }
+
   .progimage {
     margin: 1em;
     width: 100px;

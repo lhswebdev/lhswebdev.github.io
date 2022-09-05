@@ -1,5 +1,7 @@
 <script>
-  import { Card } from 'spaper';
+  import { Card } from "spaper";
+  import { Github } from "@icons-pack/svelte-simple-icons";
+  import Icon from "@iconify/svelte";
 
   export let image;
   export let name;
@@ -16,23 +18,23 @@
   subTitle={title}
   width="12em"
 >
-  <p>{description}</p> 
+  <p>{description}</p>
   <p slot="bottom" class="links">
     <a href={github} target="_blank">
       <!--<span><Icon path={mdiGithub} size="30px" /></span>-->
-      <span><i class="fab fa-github" /></span>
+      <span><Github /></span>
     </a>
 
     <!-- check other options-->
     {#if mail}
-      <a href={'mailto:' + mail}>
-        <span><i class="fas fa-envelope" /></span>
+      <a href={"mailto:" + mail}>
+        <span><Icon icon="ci:mail" /></span>
       </a>
     {/if}
 
     {#if website}
       <a href={website} target="_blank">
-        <span><i class="fas fa-laptop-code" /></span>
+        <span><Icon icon="ci:window-code-block" /></span>
       </a>
     {/if}
 
@@ -51,10 +53,12 @@
     display: flex;
     color: black;
     text-decoration: none;
+    gap: 0.75rem;
   }
 
   a {
     background-image: none;
+    margin: 0 !important;
   }
 
   span {
