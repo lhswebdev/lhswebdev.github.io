@@ -14,19 +14,11 @@
     },
     {
       name: "Anish Lakkapragada",
-      description: "Description",
+      description: "follow me on github",
       title: "Vice President",
-      image: "./images/html.png",
+      image: "./images/anish.jpeg",
       github: "https://github.com/anish-lakkapragada",
-      // mail: "",
-    },
-    {
-      name: "Kush Khanna",
-      description: "Description",
-      title: "Head of Backend",
-      image: "./images/html.png",
-      github: "https://bitly.com/98K8eH",
-      // mail: "",
+      mail: "anish.lakkapragada@gmail.com",
     },
     {
       name: "Snehil Kakani",
@@ -36,6 +28,14 @@
       mail: "kakanisnehil@gmail.com",
       github: "https://github.com/r2dev2",
       website: "https://snehilkakani.me",
+    },
+    {
+      name: "Kush Khanna",
+      description: "Description",
+      title: "Head of Backend",
+      image: "./images/html.png",
+      github: "https://bitly.com/98K8eH",
+      // mail: "",
     },
     {
       name: "Dhruv Gupta",
