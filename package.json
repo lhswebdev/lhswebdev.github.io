@@ -22,7 +22,6 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-svelte3": "^3.4.0",
     "eslint-plugin-unused-imports": "^2.0.0",
-    "mdi-svelte": "^1.1.2",
     "nodemailer": "^6.7.2",
     "prettier": "^2.5.1",
     "prettier-plugin-svelte": "^2.6.0",
@@ -34,7 +33,6 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "@mdi/js": "^6.5.95",
     "@rollup/plugin-json": "^4.1.0",
     "email": "^0.2.6",
     "jquery": "^3.6.0",

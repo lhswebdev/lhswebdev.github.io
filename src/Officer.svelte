@@ -1,7 +1,5 @@
 <script>
   import { Card } from 'spaper';
-  import Icon from 'mdi-svelte';
-  import { mdiGithub } from '@mdi/js';
 
   export let image;
   export let name;
@@ -18,10 +16,7 @@
   subTitle={title}
   width="12em"
 >
-  <!--<p>{description}</p>--> 
-  {#if name.includes("Kento")} 
-    <p> Crack Addict @ Harvard </p>
-  {/if}
+  <p>{description}</p> 
   <p slot="bottom" class="links">
     <a href={github} target="_blank">
       <!--<span><Icon path={mdiGithub} size="30px" /></span>-->
