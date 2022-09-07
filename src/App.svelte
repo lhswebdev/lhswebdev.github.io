@@ -40,12 +40,11 @@
     },
     {
       name: "Dhruv Gupta",
-      description: "description",
+      description: "sozai is the best ui framework",
       title: "Project Coordinator",
-      image: "./images/html.png",
-      github: "https://bitly.com/98K8eH",
-      // mail: '',
-      // website: '',
+      image: "./images/dhruv.jpeg",
+      github: "https://github.com/dgupt4",
+      mail: "dhruviegupta@gmail.com",
     },
   ];
 </script>

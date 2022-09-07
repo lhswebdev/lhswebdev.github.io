@@ -62,7 +62,7 @@
   }
 
   span {
-    font-size: 30px;
+    /* font-size: 30px; */
     color: black;
   }
   span:hover {
@@ -71,5 +71,10 @@
   .links,
   i:before {
     text-decoration: none !important;
+  }
+
+  :global(svg) {
+    height: 30px;
+    width: 30px;
   }
 </style>
