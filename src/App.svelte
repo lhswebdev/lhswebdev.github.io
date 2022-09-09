@@ -10,7 +10,7 @@
       description: "ma dadi is hot",
       title: "President",
       image: "./images/ankith.png",
-      github: "https://github.com/Monkeyank",
+      github: "https://github.com/ankithm28",
       // mail: "",
     },
     {
@@ -23,16 +23,16 @@
     },
     {
       name: "Snehil Kakani",
-      description: "next.js is great",
+      description: "",
       title: "Head of Frontend",
       image: "./images/snehil.jpg",
       mail: "kakanisnehil@gmail.com",
-      github: "https://github.com/r2dev2",
+      github: "https://github.com/snek152",
       website: "https://snehilkakani.me",
     },
     {
       name: "Kush Khanna",
-      description: "react>",
+      description: "react >>",
       title: "Head of Backend",
       image: "./images/kush.jpeg",
       github: "https://github.com/krash3125",
@@ -64,6 +64,15 @@
       <li>
         <Button href="https://github.com/lhswebdev?type=source" external>
           Github
+        </Button>
+      </li>
+      <li>
+        <Button
+          type="secondary"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeGQOinNNFWa2w1SBBNkrjnfdcbiHm_TXRgrhiODhSWjgednA/viewform"
+          external
+        >
+          Join Us
         </Button>
       </li>
     </ul>
