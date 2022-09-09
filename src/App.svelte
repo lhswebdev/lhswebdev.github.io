@@ -23,7 +23,7 @@
     },
     {
       name: "Snehil Kakani",
-      description: "snek is kek",
+      description: "next.js is great",
       title: "Head of Frontend",
       image: "./images/snehil.jpg",
       mail: "kakanisnehil@gmail.com",
@@ -32,11 +32,11 @@
     },
     {
       name: "Kush Khanna",
-      description: "Description",
+      description: "react>",
       title: "Head of Backend",
-      image: "./images/html.png",
-      github: "https://bitly.com/98K8eH",
-      // mail: "",
+      image: "./images/kush.jpeg",
+      github: "https://github.com/krash3125",
+      mail: "khannakushagr@gmail.com",
     },
     {
       name: "Dhruv Gupta",
