@@ -23,7 +23,7 @@
     },
     {
       name: "Snehil Kakani",
-      description: "",
+      description: "web dev is my passion, meming is my method",
       title: "Head of Frontend",
       image: "./images/snehil.jpg",
       mail: "kakanisnehil@gmail.com",
