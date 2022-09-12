@@ -11,7 +11,7 @@
       title: "President",
       image: "./images/ankith.png",
       github: "https://github.com/ankithm28",
-      // mail: "",
+      mail: "ankithm28@gmail.com",
     },
     {
       name: "Anish Lakkapragada",
