@@ -1,59 +1,50 @@
 <script>
-  import { Navbar, Button } from 'spaper';
-  import Officer from './Officer.svelte';
+  import { Navbar, Button } from "spaper";
+  import Officer from "./Officer.svelte";
+  import { Discord, Youtube, Github } from "@icons-pack/svelte-simple-icons";
   let text, email;
 
   const officers = [
     {
-      name: 'Sangmin Chun',
-      description: 'never wearing my glasses',
-      title: 'President',
-      image: './images/sangmin.png',
-      github: 'https://github.com/saggins',
-      mail: 'saggins@sagg.in',
-      twitter: 'https://twitter.com/sagginsz',
-      website: 'http://blog.sagg.in',
+      name: "Ankith Madadi",
+      description: "ma dadi is hot",
+      title: "President",
+      image: "./images/ankith.png",
+      github: "https://github.com/ankithm28",
+      mail: "ankithm28@gmail.com",
     },
     {
-      name: 'Sofia Tkachenko',
-      description: 'html is poog',
-      title: 'Vice President',
-      image: './images/sofia.png',
-      github: 'https://github.com/ssofiaT',
-      mail: 'tkasof@gmail.com',
+      name: "Anish Lakkapragada",
+      description: "follow me on github",
+      title: "Vice President",
+      image: "./images/anish.jpeg",
+      github: "https://github.com/anish-lakkapragada",
+      mail: "anish.lakkapragada@gmail.com",
     },
     {
-      name: 'Ankith Madadi',
-      description: 'ma dadi is hot',
-      title: 'Head of Backend',
-      image: './images/ankith.png',
-      github: 'https://github.com/Monkeyank',
+      name: "Snehil Kakani",
+      description: "",
+      title: "Head of Frontend",
+      image: "./images/snehil.jpg",
+      mail: "kakanisnehil@gmail.com",
+      github: "https://github.com/snek152",
+      website: "https://snehilkakani.me",
     },
     {
-      name: 'Ronak Badhe',
-      description: 'ronak "down" badhe',
-      title: 'Head of Frontend',
-      image: './images/ronak_540.png',
-      github: 'https://github.com/r2dev2',
-      website: 'https://r2dev2.github.io/',
+      name: "Kush Khanna",
+      description: "react >>",
+      title: "Head of Backend",
+      image: "./images/kush.jpeg",
+      github: "https://github.com/krash3125",
+      mail: "khannakushagr@gmail.com",
     },
     {
-      name: 'Hillary Chang',
-      description: 'super coder',
-      title: 'Project Coordinator',
-      image: './images/hillary.png',
-      github: 'https://github.com/hillarychang',
-      mail: 'hillarychang11@gmail.com',
-      website: 'https://hillarychang.me/',
-    },
-    {
-      name: 'Kento Nishi',
-      description: 'crack addict',
-      title: 'Project Coordinator',
-      image: './images/kento.png',
-      github: 'https://github.com/KentoNishi',
-      mail: 'kento24gs@outlook.com',
-      website: 'http://kentonishi.github.io/',
+      name: "Dhruv Gupta",
+      description: "sozai is the best ui framework",
+      title: "Project Coordinator",
+      image: "./images/dhruv.jpeg",
+      github: "https://github.com/dgupt4",
+      mail: "dhruviegupta@gmail.com",
     },
   ];
 </script>
@@ -72,8 +63,17 @@
       <li id="involved-li"><a href="#involved"> Get Involved!</a></li>
       <li>
         <Button href="https://github.com/lhswebdev?type=source" external>
-          Github</Button
+          Github
+        </Button>
+      </li>
+      <li>
+        <Button
+          type="secondary"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeGQOinNNFWa2w1SBBNkrjnfdcbiHm_TXRgrhiODhSWjgednA/viewform"
+          external
         >
+          Join Us
+        </Button>
       </li>
     </ul>
   </Navbar>
@@ -116,7 +116,7 @@
       target="_blank"
       class="button cta discord"
     >
-      Discord <i class="fab fa-discord" />
+      Discord <Discord />
     </a>
 
     <a
@@ -124,7 +124,7 @@
       target="_blank"
       class="button cta youtube"
     >
-      YouTube <i class="fab fa-youtube" />
+      YouTube <Youtube />
     </a>
 
     <a
@@ -132,7 +132,7 @@
       target="_blank"
       class="button cta meeting-demos"
     >
-      Meeting Demos <i class="fab fa-github" />
+      Meeting Demos <Github />
     </a>
   </div>
 
@@ -231,6 +231,7 @@
     align-items: center;
     gap: 2em;
   }
+
   .progimage {
     margin: 1em;
     width: 100px;
