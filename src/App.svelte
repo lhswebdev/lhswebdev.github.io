@@ -7,7 +7,7 @@
   const officers = [
     {
       name: "Ankith Madadi",
-      description: "ma dadi is hot",
+      description: "i love real time systems",
       title: "President",
       image: "./images/ankith.png",
       github: "https://github.com/ankithm28",
