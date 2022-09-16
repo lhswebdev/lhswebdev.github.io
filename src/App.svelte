@@ -4,6 +4,8 @@
   import { Discord, Youtube, Github } from "@icons-pack/svelte-simple-icons";
   let text, email;
 
+  let disabled = "";
+
   const officers = [
     {
       name: "Ankith Madadi",
@@ -47,6 +49,23 @@
       mail: "dhruviegupta@gmail.com",
     },
   ];
+
+  async function onSubmit() {
+    disabled = "Sending...";
+    const res = await fetch("https://formspree.io/f/mjvlopqj", {
+      headers: {
+        "Content-Type": "application/json",
+        "Data-Type": "json",
+      },
+      method: "POST",
+      mode: "no-cors",
+      body: JSON.stringify({ email, text }),
+    });
+    disabled = "Sent!";
+    setTimeout(() => {
+      disabled = "";
+    }, 1000);
+  }
 </script>
 
 <main>
@@ -170,7 +189,7 @@
 
   <h2 class="section-header">Got Questions? We got answers (hopefully)</h2>
   <div class="questions">
-    <form action="https://formspree.io/f/mjvlopqj" method="POST">
+    <form on:submit|preventDefault={onSubmit}>
       <input
         type="email"
         placeholder="Email"
@@ -195,7 +214,8 @@
           disabled={email == null ||
             text == null ||
             email.length == 0 ||
-            text.length == 0}>Send!</Button
+            text.length == 0 ||
+            disabled.length !== 0}>{disabled || "Send!"}</Button
         >
       </div>
     </form>
