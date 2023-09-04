@@ -31,7 +31,7 @@
       image: "./images/aarush.jpg",
       github: "https://github.com/aarush-narang",
       mail: "aarushnarang@gmail.com",
-      website: "aarushnarang.com"
+      website: "https://aarushnarang.com"
     },
     {
       name: "Shubham Parab",
