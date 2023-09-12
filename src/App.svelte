@@ -14,6 +14,7 @@
       image: "./images/anish.jpeg",
       github: "https://github.com/anish-lakkapragada",
       mail: "anish.lakkapragada@gmail.com",
+      wesbite: "https://anish.lakkapragada.com"
     },
     {
       name: "Snehil Kakani",
@@ -31,7 +32,7 @@
       image: "./images/aarush.jpg",
       github: "https://github.com/aarush-narang",
       mail: "aarushnarang@gmail.com",
-      website: "https://aarushnarang.com"
+      website: "https://aarushnarang.com",
     },
     {
       name: "Shubham Parab",
@@ -40,13 +41,13 @@
       image: "./images/shubham.jpg",
       github: "https://github.com/skparab1",
       mail: "skparab1@gmail.com",
-      website: "https://skparab1.github.io/"
+      website: "https://skparab1.github.io/",
     },
     {
       name: "Abhinav Raja",
       description: "webdev is a movement not a meme",
       title: "Head of Backend",
-      image: "./images/abhinav.jpg",
+      image: "./images/bob.jpg",
       github: "https://github.com/Abhibob",
       mail: "abhinavbob2@gmail.com",
     },
