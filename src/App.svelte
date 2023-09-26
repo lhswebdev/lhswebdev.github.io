@@ -99,7 +99,7 @@
       <li>
         <Button
           type="secondary"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSeGQOinNNFWa2w1SBBNkrjnfdcbiHm_TXRgrhiODhSWjgednA/viewform"
+          href="mailto:lynbrookwebdevclub@gmail.com"
           external
         >
           Join Us
